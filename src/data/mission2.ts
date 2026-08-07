@@ -6,20 +6,20 @@ export interface Mission2Challenge {
 
 export const mission2Challenges: Mission2Challenge[] = [
   {
-    question: "Decode Base64\n\nTU9VTklLQQ==",
-    answer: "MOUNIKA",
+    question: "Decode Base64\n\nQkFWQUFBQQ==",
+    answer: "BAVAAAA",
     hint: "Cybersecurity students know this encoding."
   },
 
   {
-    question: "Decrypt Caesar Cipher\n\nPRXQLND",
-    answer: "MOUNIKA",
+    question: "Decrypt Caesar Cipher\n\nLKDWHERXOLWKLQXXX",
+    answer: "IHATEYOULITHINUUU",
     hint: "Shift every letter backward."
   },
 
   {
-    question: "Who always calls you 'Agent _______' ?",
-    answer: "MOUNIKA",
-    hint: "It's your code name."
+    question: "what is the one thing he always ask for _______' ?",
+    answer: "BJ",
+    hint: "He always ask for it when he is in a mood 🌚"
   }
 ];
