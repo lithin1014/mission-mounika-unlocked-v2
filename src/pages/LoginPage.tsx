@@ -6,7 +6,7 @@ import {
   getCountdown,
 } from "../utils/timeLock";
 
-const PASSWORD = "BJ";
+const PASSWORD = "redvelevt&bbapizza";
 
 export default function LoginPage() {
   const navigate = useNavigate();

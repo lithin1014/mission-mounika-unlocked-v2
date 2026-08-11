@@ -30,6 +30,8 @@ import BirthdayPage from "./pages/BirthdayPage";
 
 import ProtectedRoute from "./components/ProtectedRoute";
 
+import Mission5Page from "./pages/Mission5Page";
+
 export default function App() {
   return (
     <Routes>
@@ -189,6 +191,15 @@ export default function App() {
         element={
           <ProtectedRoute>
             <BirthdayPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/mission-5"
+        element={
+          <ProtectedRoute>
+            <Mission5Page />
           </ProtectedRoute>
         }
       />
